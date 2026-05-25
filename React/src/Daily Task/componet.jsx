@@ -1,0 +1,14 @@
+function Hello(){
+    return(
+           
+    <>
+    <h1>Hello World</h1>
+    </>
+    )
+}
+conditon ? true : else 
+
+   
+    <>
+    {isvalid ? <Hello? > : <counter/> }
+    </>
