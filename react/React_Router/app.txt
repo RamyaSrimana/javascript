@@ -1,0 +1,25 @@
+    {/* <Counter/> */}
+    {/* <ConditionalRendering render = {false}/> */}
+    {/* <Forms/> */}
+    {/* < EffectFirstRender/> */}
+    {/* < Withwithout_Dependicies/> */}
+    {/* <Listkeys /> */}
+
+
+    -- for React-router app.jsx
+import Contact from './React_Router/Contact'
+import About from './React_Router/About'
+import Home from './React_Router/Home'
+import { Route, Routes , Link} from 'react-router-dom'
+
+     <nav>
+      <Link to = "/">Home</Link> |
+      <Link to = "/about">About</Link> |
+      <Link to = "/contact">Contact</Link> |
+    </nav>
+    <Routes>
+      <Route path = "/" element = {<Home/>}/>
+      <Route path = "/about" element = {<About/>}/>
+      <Route path = "/contact" element = {<Contact/>}/>
+    </Routes>
+    
